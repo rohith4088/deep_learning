@@ -1,0 +1,13 @@
+digraph G {
+concentrate=True;
+dpi=96;
+rankdir=TB;
+node [shape=record];
+139735338287408 [label="{input_4|InputLayer}|{input:|output:}|{{[(None, 784)]}|{[(None, 784)]}}"];
+139735338287504 [label="{dense_9|Dense}|{input:|output:}|{{(None, 784)}|{(None, 64)}}"];
+139735338288272 [label="{dense_10|Dense}|{input:|output:}|{{(None, 64)}|{(None, 64)}}"];
+139736943957136 [label="{dense_11|Dense}|{input:|output:}|{{(None, 64)}|{(None, 10)}}"];
+139735338287408 -> 139735338287504;
+139735338287504 -> 139735338288272;
+139735338288272 -> 139736943957136;
+}

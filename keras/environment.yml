@@ -1,0 +1,8 @@
+datalore-env-format-version: "0.2"
+datalore-package-manager: "pip"
+datalore-base-env: "default"
+dependencies:
+- pip:
+  - pydot==1.4.2
+  - graphviz==0.20.1
+  - tensorflow==2.13.0
